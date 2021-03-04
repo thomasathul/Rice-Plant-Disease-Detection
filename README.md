@@ -8,4 +8,4 @@ Detecting diseases in rice plants and classifying them acoording to it.
   #### Resnet50 Model
             Not accurate, wrong values.
             
-***(Task: Need to retrain and include and improve more datasets).***
+***(Task: Need to include and improve more datasets).***
