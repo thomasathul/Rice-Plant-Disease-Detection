@@ -10,8 +10,11 @@ Detecting diseases in rice plants and classifying them acoording to it.
          4) loss: 1.9514 - accuracy: 0.7247 - val_loss: 4.4615 - val_accuracy: 0.5163       (Epoch increased by 10, Learning rate defined)
          5) loss: 1.6486 - accuracy: 0.7814 - val_loss: 4.9798 - val_accuracy: 0.5346       (Epoch-30,regulizers introduced)
          6) loss: 2.0126 - accuracy: 0.7337 - val_loss: 3.9157 - val_accuracy: 0.5774
+         7) loss: 0.0476 - accuracy: 0.9911 - val_loss: 1.8791 - val_accuracy: 0.8250       (Healthy predicted correctly, overfitting)
   #### Resnet50 Model
             Not accurate, wrong results.
          1).loss: 1.4497 - accuracy: 0.4122,val_loss 1.9753 - val_accuracy: 0.2581
          
-***(Task: Improve model validation).***
+  #### SVM Technique
+           Accurate, correct results.
+         1).Prediction score= 0.875
