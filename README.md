@@ -1,5 +1,5 @@
 # Rice-Plant-Disease-Detection
-Detecting diseases in rice plants and classifying them acoording to it.
+Detecting diseases in rice plants and classifying them according to it.
 
 ## Observations:
   #### Inception V3 model
