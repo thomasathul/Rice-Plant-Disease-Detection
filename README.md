@@ -18,3 +18,5 @@ Detecting diseases in rice plants and classifying them according to it.
   #### SVM Technique
            Accurate, correct results.
          1).Prediction score= 0.875
+  
+  #### Decision Tree
