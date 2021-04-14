@@ -2,7 +2,7 @@
 Detecting diseases in rice plants and classifying them according to it.
 
 | Model  | Training Accuracy | Validation Accuracy |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------|
 | Inception V3 model  |    |        |
 | Resnet50 Model  | Content Cell  |      |
 | SVM Technique |                 |       |
