@@ -3,8 +3,7 @@ Detecting diseases in rice plants and classifying them according to it.
 
 | Model  | Training Accuracy | Validation Accuracy |
 | ------------- | ------------- | ------------|
-| Inception V3 model  |    |        |
-| Resnet50 Model  |   |      |
+| Inception V3 model  |  0.9903  |   0.8542     |
 | SVM Technique |     accuracy : 0.85            |       |
 | Decision Tree |     accuracy :  0.54         |          |
 | K Nearest Neighbors |  accuracy: 0.62      |        |
