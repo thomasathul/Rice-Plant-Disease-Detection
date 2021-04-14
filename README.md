@@ -8,7 +8,7 @@ Detecting diseases in rice plants and classifying them according to it.
 | SVM Technique |                 |       |
 | Decision Tree |              |          |
 | K Nearest Neighbors |         |        |
-| MobileNetV2 |   accuracy: 0.8552     |        |
+| MobileNetV2 |   accuracy: 0.8552     | accuracy: 0.8125    |
 
 ## Observations:
  
