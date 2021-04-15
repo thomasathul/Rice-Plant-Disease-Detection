@@ -11,4 +11,4 @@ Detecting diseases in rice plants and classifying them according to it.
 
 ## Observations:
  
-Decision Tree needs to be improved
+Decision  Tree and KNN needs to be improved
