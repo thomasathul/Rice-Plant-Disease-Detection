@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <title>Rice Plant Disease Detection</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/form-upload.css" rel="stylesheet">
+
+   
+</head>
+
+<body class="text-center">
+    
+    <form class="form-upload"  method=post enctype=multipart/form-data>
+        <header style="font-size:40px" ;>Rice Disease Detection System</header>
+        <br>
+        <h1 class="h5 mb-3 font-weight-normal">Upload the image</h1>
+        <input type="file" id="image" class="form-control" name="image" required autofocus>
+        <br>
+        <button class="btn btn-lg btn-outline-success" type="submit">Predict</button>
+        <br>
+        <br>
+        {% if image_loc %}
+         <img class="mb-4" src="static/{{image_loc}}" alt="" width="256" height="256">
+         <h3 class="h3 mb-3 font-weight-bolder"> Prediction: {{prediction}} </h3>
+        {%endif%}
+        <footer class="h5 text-center" style="font-size:15px">
+            Resources:
+            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisbrownspot.html" target="_blank" title="Brownspot">
+                Brownspot</a> |
+            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblb.html" target="_blank" title="Bacterial Leaf Blight">
+                Bacterial Leaf Blight</a> |
+            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html" target="_blank" title="Leaf Smut">Leaf
+                Smut</a>
+            <br>
+            <br>
+            <p>This Web API is a part of Final year Capstone project made by
+                <br>
+                <a href="https://www.linkedin.com/in/athulthomas/" target="_blank">Athul Thomas</a>,
+                <a href="https://www.linkedin.com/in/premnairkt/" target="_blank">Prem Praveen Nair</a>,
+                <a href="https://www.linkedin.com/in/suneesh-haran-86b5861a0/" target="_blank">Suneesh Haran</a>
+            </p>
+        </footer>
+    </form>
+</body>
+
+</html>
