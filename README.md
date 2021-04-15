@@ -15,5 +15,11 @@ Detecting diseases in rice plants and classifying them according to it.
  
 Decision  Tree and KNN needs to be improved
 
+##Steps to run the program
 
+Download / Clone this repository
+
+Run the app.py in your command terminal
+
+Open the app locally in your web broswer
 
