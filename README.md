@@ -19,14 +19,14 @@ Decision  Tree and KNN needs to be improved
 
 ## Steps to run the program:
 
-'''
+```
 1. Download / Clone this repository
-'''
+```
 
-'''
+```
 2. Run the app.py in your command terminal
-'''
+```
 
-'''
+```
 3. Open the app locally in your web broswer
-'''
+```
