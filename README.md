@@ -1,7 +1,9 @@
 # Rice-Plant-Disease-Detection
-Detecting diseases in rice plants and classifying them according to it.
 
+Detecting diseases in rice plants and classifying them according to it.
 Trained Classes:- Bacterial leaf blight, Leaf smut, Leaf Blast, Brown Spot, Healthy
+
+
 
 | Model  | Training Accuracy | Validation Accuracy | 
 | ------------- | ------------- | ------------|
@@ -11,11 +13,16 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Leaf Blast, Brown Spot, Heal
 | K Nearest Neighbors |  accuracy: 0.62      |        |
 | Decision Tree |     accuracy :  0.54         |          |
 
+
 Except Inception model, all other models are trained under 4 datasets only
+
+
 
 ## Observations:
  
 Decision  Tree and KNN needs to be improved
+
+
 
 ## Steps to run the program:
 
