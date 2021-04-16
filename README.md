@@ -1,6 +1,7 @@
 # Rice-Plant-Disease-Detection
 
 Detecting diseases in rice plants and classifying them according to it.
+
 Trained Classes:- Bacterial leaf blight, Leaf smut, Leaf Blast, Brown Spot, Healthy
 
 
