@@ -1,25 +1,24 @@
-
 <!doctype html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+
     <title>Rice Plant Disease Detection</title>
-    
+
     <!-- Bootstrap core CSS -->
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/static/css/form-upload.css" rel="stylesheet">
 
-   
+
 </head>
 
 <body class="text-center">
-    
-    <form class="form-upload"  method=post enctype=multipart/form-data>
+
+    <form class="form-upload" method=post enctype=multipart/form-data>
         <header style="font-size:40px" ;>Rice Disease Detection System</header>
         <br>
         <h1 class="h5 mb-3 font-weight-normal">Upload the image</h1>
@@ -29,24 +28,32 @@
         <br>
         <br>
         {% if image_loc %}
-         <img class="mb-4" src="static/{{image_loc}}" alt="" width="256" height="256">
-         <h3 class="h3 mb-3 font-weight-bolder"> Prediction: {{prediction}} </h3>
+        <img class="mb-4" src="static/{{image_loc}}" alt="" width="256" height="256">
+        <h3 class="h3 mb-3 font-weight-bolder"> Prediction: {{prediction}} </h3>
         {%endif%}
         <footer class="h5 text-center" style="font-size:15px">
             Resources:
-            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisbrownspot.html" target="_blank" title="Brownspot">
+            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisbrownspot.html" target="_blank"
+                title="Brownspot">
                 Brownspot</a> |
-            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblb.html" target="_blank" title="Bacterial Leaf Blight">
+            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblb.html" target="_blank"
+                title="Bacterial Leaf Blight">
                 Bacterial Leaf Blight</a> |
-            <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html" target="_blank" title="Leaf Smut">Leaf
+            <a href="https://www.lsuagcenter.com/~/media/system/2/4/f/4/24f45ba528119f20218233f1be1b608f/pub3115leafsmutlowres.pdf"
+                target="_blank" title="Leaf Smut">Leaf
                 Smut</a>
+            <!--<a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html" target="_blank" title="Leaf Blast">Leaf Blast</a>-->
+            <br>
             <br>
             <br>
             <p>This Web API is a part of Final year Capstone project made by
                 <br>
-                <a href="https://www.linkedin.com/in/athulthomas/" target="_blank">Athul Thomas</a>,
-                <a href="https://www.linkedin.com/in/premnairkt/" target="_blank">Prem Praveen Nair</a>,
-                <a href="https://www.linkedin.com/in/suneesh-haran-86b5861a0/" target="_blank">Suneesh Haran</a>
+                <a href="https://www.linkedin.com/in/athulthomas/" target="_blank"><b>Athul Thomas</b></a>,
+                <a href="https://www.linkedin.com/in/premnairkt/" target="_blank"><b>Prem Praveen Nair</b></a>
+                and
+                <a href="https://www.linkedin.com/in/suneesh-haran-86b5861a0/" target="_blank"><b>Suneesh Haran</b></a>
+                <br>
+                under the guidance of <b>Prof. Monica Subashini</b>.
             </p>
         </footer>
     </form>
