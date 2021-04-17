@@ -31,11 +31,20 @@ While running the API, you may have to wait for a few seconds at first to load a
 ```
 1. Download / Clone this repository
 ```
+```
+2. Make sure you have installed the necessary libraries given in requirements.txt
+```
 
 ```
-2. Run the app.py in your command terminal
+3. Open your terminal and change your directory to the cloned repository
+    cd Documents/GitHub/Rice-Plant-Disease-Detection
 ```
 
 ```
-3. Open the app locally in your web broswer
+4. Run the app.py in your command terminal
+    python app.py
+```
+
+```
+5. Open the app locally in your web broswer
 ```
