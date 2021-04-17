@@ -10,6 +10,7 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Brown Spot, Healthy
 | ------------- | ------------- | ------------|
 | Inception V3 model  |  accuracy: 0.9905  |   accuracy : 0.8198     | 
 | MobileNetV2 |   accuracy: 0.9500    | accuracy: 0.8125   |
+| NasNetMobile | accuracy :            | accuracy:      |
 | SVM Technique |     accuracy : 0.85            |       |
 | K Nearest Neighbors |  accuracy: 0.62      |        |
 | Decision Tree |     accuracy :  0.54         |          |
