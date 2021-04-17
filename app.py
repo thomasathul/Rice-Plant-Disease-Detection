@@ -50,7 +50,7 @@ def upload_predict():
     return render_template("index.html", prediction=" ", image_loc=None,incepval=None,mobilval=None,nasval=None,incepcon=None,mobilcon=None,nascon=None)
 
 if __name__ == "__main__":
-    MODEL = keras.models.load_model("C:/Users/Dell/Documents/ricedisease/savedmodel/inception_model.h5")
+    MODEL = keras.models.load_model("C:/Users/Dell/Documents/ricedisease/savedmodel/ince_model.h5")
     MODEL2 = keras.models.load_model("C:/Users/Dell/Documents/ricedisease/savedmodel/mobile_model.h5")
     MODEL3 = keras.models.load_model("C:/Users/Dell/Documents/ricedisease/savedmodel/nasnet_model.h5")
     app.run(port=8080,debug=True)    
