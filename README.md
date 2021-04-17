@@ -42,7 +42,7 @@ While running the API, you may have to wait for a few seconds at first to load a
 
 ```
 4. Run the app.py in your command terminal
-   >python app.py
+   > python app.py
 ```
 
 ```
