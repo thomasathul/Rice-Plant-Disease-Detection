@@ -23,6 +23,7 @@ Except Inception model, all other models are trained under 4 datasets only
  
 Decision  Tree and KNN needs to be improved
 
+While running the API, you may have to wait for a few seconds at first to load all the models. 
 
 
 ## Steps to run the program:
