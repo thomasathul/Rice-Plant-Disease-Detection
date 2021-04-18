@@ -17,8 +17,7 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Brown Spot, Healthy
 
 
 
-\
-\
+\\
 
 
 
