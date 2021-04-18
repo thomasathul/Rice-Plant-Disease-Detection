@@ -13,9 +13,10 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Brown Spot, Healthy
 | NasNetMobile | accuracy : 0.9320        | accuracy: 0.8044     |
 | SVM Technique |     accuracy : 0.85            |       |
 | K Nearest Neighbors |  accuracy: 0.62      |        |
-| Decision Tree |     accuracy :  0.54         |          |\
+| Decision Tree |     accuracy :  0.54         |          |
 
-
+<br/>
+<br/>
 
 
 
@@ -25,9 +26,10 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Brown Spot, Healthy
  
 Decision  Tree and KNN needs to be improved
 
-While running the API, you may have to wait for a few seconds at first to load all the models. \
+While running the API, you may have to wait for a few seconds at first to load all the models. 
 
-
+<br/>
+<br/>
 
 ## Steps to run the program:
 
@@ -51,7 +53,8 @@ While running the API, you may have to wait for a few seconds at first to load a
 ```
 5. Open the app locally in your web broswer
 ``` 
-\
+<br/>
+<br/>
 
 
 
