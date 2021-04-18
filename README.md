@@ -16,8 +16,6 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Brown Spot, Healthy
 | Decision Tree |     accuracy :  0.54         |          |
 
 
-Except Inception model, all other models are trained under 4 datasets only
-
 
 
 ## Observations:
@@ -49,3 +47,12 @@ While running the API, you may have to wait for a few seconds at first to load a
 ```
 5. Open the app locally in your web broswer
 ```
+
+## Possible Errors
+
+* OSError: SavedModel not found at ".....
+  Please check your savedmodel file and check whether ince_model.h5 is a pointer file ( i.e 1kb file). If yes, please go to the savedmodel file in my github repo and manually download the ince_model.h5 (108mb file)
+  
+* Please do check whether the file path's in the app.py file is changed to your local paths. Else it would throw an error.
+
+* Install the necessary libraries required to run the app to avoid any other possible errors.
