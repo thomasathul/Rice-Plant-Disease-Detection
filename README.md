@@ -50,7 +50,7 @@ While running the API, you may have to wait for a few seconds at first to load a
 
 ## Possible Errors
 
-* OSError: SavedModel not found at ".....
+* (OSError: SavedModel not found at ".....)
 
   Please check your savedmodel file and check whether ince_model.h5 is a pointer file ( i.e 1kb file). If yes, please go to the savedmodel file in my github repo and manually download the ince_model.h5 (108mb file)
   
