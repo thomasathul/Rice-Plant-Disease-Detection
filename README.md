@@ -1,4 +1,4 @@
-# Rice-Plant-Disease-Detection
+# Rice Plant Disease Detection
 
 Detecting diseases in rice plants and classifying them according to it.
 
