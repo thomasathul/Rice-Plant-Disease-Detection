@@ -17,7 +17,7 @@ Trained Classes:- Bacterial leaf blight, Leaf smut, Brown Spot, Healthy
 
 
 
-\\
+\
 
 
 
@@ -28,7 +28,7 @@ Decision  Tree and KNN needs to be improved
 While running the API, you may have to wait for a few seconds at first to load all the models. 
 
 \
-\
+
 
 
 ## Steps to run the program:
@@ -55,7 +55,7 @@ While running the API, you may have to wait for a few seconds at first to load a
 ```
 
 \
-\
+
 
 
 
