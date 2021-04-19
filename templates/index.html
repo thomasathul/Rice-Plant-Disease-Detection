@@ -14,13 +14,14 @@
     <!-- Custom styles for this template -->
     <link href="/static/css/form-upload.css" rel="stylesheet">
 
-   
+       
+
 </head>
 
-<body class="text-center">
+<body class="h5 text-center" >
     
     <form class="form-upload"  method=post enctype=multipart/form-data>
-        <header style="font-size:40px" ;>Rice Disease Detection System</header>
+        <header style="font-size:40px";>Rice Disease Detection System</header>
         <br>
         <h1 class="h5 mb-3 font-weight-normal">Upload the image</h1>
         <input type="file" id="image" class="form-control" name="image" required autofocus>
@@ -53,29 +54,34 @@
                 background-color: #54b95d;
             }
         </style>
-            <table  class="h5 mb-3 font-weight-normal" >
-                <tr>
-                    <th>Model</th>
-                    <th>Prediction</th>
-                    <th>Confidence</th>
-                </tr>
-                <tr>
-                    <td>Inceptionv3</td>
-                    <td>{{incepval}}</td>
-                    <td>{{incecon}}%</td>
-                </tr>
-                <tr>
-                    <td>MobileNet</td>
-                    <td>{{mobilval}}</td>
-                    <td>{{mobilcon}}%</td>
-                </tr>
-                <tr>
-                    <td>NasNetMobile</td>
-                    <td>{{nasval}}</td>
-                    <td>{{nascon}}%</td>
-                </tr>
-            </table>
+           
+        </style>
+        <table class="h5 mb-3 font-weight-normal table table-hover">
+            <thead class="thead-dark">
+            <tr >
+                <th >Disease</th>
+                <th >Confidence</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Healthy</td>
+                <td>{{health}}%</td>
+            </tr>
+            <tr>
+                <td>Bacterial Leaf Blight</td>
+                <td>{{blight}}%</td>
+            </tr>
+            <tr>
+                <td>Brown Spot</td>
+                <td>{{spot}}%</td>
+            </tr>
+            <tr>
+                <td>Leaf Smut</td>
+                <td>{{smut}}%</td>
+            </tr>
+        </table>
         {%endif%}
+
         <br>
         <footer class="h5 text-center" style="font-size:15px">
             Resources:
@@ -85,8 +91,6 @@
                 Bacterial Leaf Blight</a> |
             <a href="https://www.lsuagcenter.com/~/media/system/2/4/f/4/24f45ba528119f20218233f1be1b608f/pub3115leafsmutlowres.pdf" target="_blank" title="Leaf Smut">Leaf
                 Smut</a> 
-            <!--<a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html" target="_blank" title="Leaf Blast">Leaf Blast</a>-->
-            <br>
             <br>
             <br>
             <p>This Web API is a part of Final year Capstone project made by
@@ -99,7 +103,7 @@
                 under the guidance of <b>Prof. Monica Subashini</b>.
             </p>
         </footer>
+       
     </form>
 </body>
 
-</html>
