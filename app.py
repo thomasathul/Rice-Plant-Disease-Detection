@@ -5,6 +5,9 @@ import keras
 import os
 import cv2
 import numpy as np
+from tensorflow.keras.preprocessing import image
+import skimage
+
 
 app=Flask(__name__)
 UPLOAD_FOLDER = "C:/Users/Dell/Documents/ricedisease/static"
@@ -12,13 +15,15 @@ UPLOAD_FOLDER = "C:/Users/Dell/Documents/ricedisease/static"
 
 
 def predict(image_path):
-    img = cv2.imread(image_path)
-    img = cv2.resize(img, (224, 224),  interpolation=cv2.INTER_AREA)
-    img = img /255
-    img=np.asarray([img])
-    p = MODEL.predict(img)
-    p2= MODEL2.predict(img)
-    p3=MODEL3.predict(img)
+    image_to_predict = image.load_img(image_path, target_size=(224, 224))
+    image_to_predict = image.img_to_array(image_to_predict, data_format="channels_last")
+    image_to_predict = np.expand_dims(image_to_predict, axis=0)
+    image_to_predict=image_to_predict/255
+    images_array=[]
+    images_array.append(image_to_predict)
+    p = MODEL.predict(images_array)
+    p2= MODEL2.predict(images_array)
+    p3=MODEL3.predict(images_array)
     diseases = ["Healthy", "Bacterial Leaf Blight", "Brown Spot", "Leaf Smut"]
     accu1=round(np.max(p)*100,2)
     accu2=round(np.max(p2)*100,2)
